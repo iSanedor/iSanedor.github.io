@@ -1,6 +1,13 @@
-body {
+html, body {
   position: absolute;
   top: 0px;
   left: 50%;
   margin-left: -500px;
+}
+
+#gif {
+  display: block;
+  width:300px;
+  height:300px;
+  border: 1px solid black
 }
