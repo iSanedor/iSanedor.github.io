@@ -1,13 +1,142 @@
-#content {
-    margin: auto;
-    width: 50%;
-    text-align: center;
+body {
+  font-family:'Trebuchet MS', Arial, sans-serif;
 }
-  
-img {
-    display: flex;
-    width: 50%;
-    height:auto;
-    margin-left: auto;
-    margin-right: auto;
+
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+#resume-body {
+  font-size:medium;
+}
+
+i{
+  color: lightgrey;
+}
+
+.profile{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.profile img{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#portrait {
+  display: block;
+  width: 25%;
+  height: auto;
+}
+
+.profile h3{
+  color: #ffffff;
+  margin: 10px 0 5px;
+}
+
+.profile p{
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.nav-link span{
+  color: #ffffff;
+}
+
+.nav {
+  align-items: center;
+}
+
+#menu li a{
+  display: block;
+  padding: 13px 30px;
+  color: rgb(241, 237, 237);
+  font-size: 16px;
+  position: relative;
+}
+
+.imgCard img{
+  max-width: 100%;
+  height: auto;
+}
+
+.cardBtn:hover, .cardBtn:not(:hover){
+  border: 0ch;
+  border-color: none;
+}
+
+.pcard:hover {
+  opacity: 0.8;
+  border-color: black;
+}
+
+#resumedl {
+  background-color:#24362e
+}
+
+#resumedl:hover, #openNav:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#bodycontent {
+  background-color: white;
+}
+
+.hcard {
+  color: white;
+  background-color: #24362e;
+}
+
+/*#1e5c81 #23382f*/
+#navBar, #header {
+  background-color: #24362e;
+}
+.display-4, .hcard {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#intro::after {
+  content: "";
+  width: 10px;
+  height: 45px;
+  background: lightgray;
+  display: inline-block;
+
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+p + ul {
+  margin-top: -10px;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+#particle-div{
+  width: 100%;
+  height: 230px;
+  background-color: #24362e;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#bannerContent {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+}
+
+#wrapper {
+  position: relative;
 }
